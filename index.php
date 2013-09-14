@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="/assets/css/main.css">
 </head>	
 <body>
-	<h1>Tråkigt sida?!?!</h1>
+	<h1>Git-Deploy snurrar om jag ser detta!</h1>
 
 	<!-- Latest compiled bootstrap and minified JavaScript -->
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
