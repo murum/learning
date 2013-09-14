@@ -6,33 +6,40 @@
 MAIN
 TYPE
 BUTTONS
-TABLES
 MISC
-RESPONSIVE
 */
 
 /*------------------------------------*\
    $MAIN
 \*------------------------------------*/
 body {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
+	background: #fff;
+	color: #222;
 }
 
 
 /*------------------------------------*\
    $TYPE
 \*------------------------------------*/
-h1,h2,h3,h4,h5,h6 {
-	font-family: 'Oswald', sans-serif;
-	font-weight: 700;
+h1 {
+	margin: 0 0 18px;
 }
 
+p {
+	margin: 0 0 6px;
+}
 	/*------------------------------------*\
 	   $SHARED
 	\*------------------------------------*/
-
+	h1,h2,h3,h4,h5,h6 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 900;
+		letter-spacing: 1px;
+		color: #00619a;
+	}
 
 /*------------------------------------*\
    $BUTTONS
@@ -42,8 +49,82 @@ h1,h2,h3,h4,h5,h6 {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 1em;
+	color: #fff;
+}
+.btn:hover {
+	color:#fff;
+}
+.btn:active {
+	color:#fff;
 }
 
-	/*------------------------------------*\
-	   $SHARED
-	\*------------------------------------*/
+.btn-success {
+	background: #80B12C;
+	border: 1px solid #619A00;
+	box-shadow: 0 2px 0 #619A00;
+}
+
+.btn-success:hover {
+	background: #8fc531;
+	border: 1px solid #71b400;
+	box-shadow: 0 2px 0 #71b400;
+}
+
+.btn-success:active {
+	background: #8fc531;
+	border: 1px solid #71b400;
+	box-shadow: none;
+	position: relative;
+	top: 2px;
+}
+
+.btn-frontend {
+	background: #b12c80;
+	border: 1px solid #9a0061;
+	box-shadow: 0 2px 0 #9a0061;
+}
+
+.btn-frontend:hover {
+	background: #c5318f;
+	border: 1px solid #b40071;
+	box-shadow: 0 2px 0 #b40071;
+}
+
+.btn-frontend:active {
+	background: #c5318f;
+	border: 1px solid #b40071;
+	box-shadow: none;
+	position: relative;
+	top: 2px;
+}
+
+.btn-backend {
+	background: #2c80b1;
+	border: 1px solid #00619a;
+	box-shadow: 0 2px 0 #00619a;
+}
+
+.btn-backend:hover {
+	background: #318fc5;
+	border: 1px solid #0071b4;
+	box-shadow: 0 2px 0 #0071b4;
+}
+
+.btn-backend:active {
+	background: #318fc5;
+	border: 1px solid #0071b4;
+	box-shadow: none;
+	position: relative;
+	top: 2px;
+}
+
+/*------------------------------------*\
+   $MISC
+\*------------------------------------*/
+.alert .close {
+	margin: -15px -10px;
+}
+
+.row-margin {
+	margin: 0 -15px 24px;
+}
