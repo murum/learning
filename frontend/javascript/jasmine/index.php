@@ -18,7 +18,7 @@
 			<h1 class="align-center">BDD med Jasmine</h1>
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1 align-center">
-					<a href="/frontend/javascript/jasmine/zero/specRunner.html" class="btn btn-frontend">Källan</a>
+					<a href="/frontend/javascript/jasmine/zero/SpecRunner.html" class="btn btn-frontend">Källan</a>
 					<a href="/frontend/javascript/jasmine/one" class="btn btn-frontend">1</a>
 				</div>
 			</div>

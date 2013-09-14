@@ -3,8 +3,8 @@
 	<div class="row row-margin">
 		<div class="col-md-10 col-md-offset-1">
 			<a href="/" class="btn btn-success">hem</a>
-			<a href="/" class="btn btn-frontend">frontend</a>
-			<a href="/" class="btn btn-backend">backend</a>
+			<a href="/frontend" class="btn btn-frontend">frontend</a>
+			<a href="/backend" class="btn btn-backend">backend</a>
 		</div>
 	</div>
 </div>
